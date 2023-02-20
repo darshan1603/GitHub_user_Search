@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+.app h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1rem auto;
+}
+.app h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 3px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.search-form input {
+  max-width: 50vw;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  outline: none;
+}
+.search-form input:hover {
+  border: 1px solid #00000055;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  transition: 0.1s ease-in-out;
+}
+.search-form input:focus {
+  border: 1px solid #000;
+}
+.search-form button {
+  padding: 1rem 1.8rem;
+  border-radius: 2px;
+  background-color: #000;
+  color: #fff;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.search-form button:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #fcfcfc;
+  border: 1px solid #00000055;
+  color: #000;
+}
+.search-form button:active {
+  background-color: #ccc;
+  border: 1px solid #000;
+  color: #000;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+}
+.user img {
+  margin: 1rem;
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  width: 100%;
+  height: 100%;
+}
+.user img:hover {
+  border: 1px solid #000;
+  transition: 0.2s ease-in-out;
+}
+.user a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin: 1rem 0;
+}
+.user a:hover {
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
